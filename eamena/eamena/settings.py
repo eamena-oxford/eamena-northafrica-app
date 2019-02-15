@@ -3,7 +3,6 @@ import inspect
 from arches.settings import *
 from django.utils.translation import ugettext as _
 
-
 PACKAGE_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 PACKAGE_NAME = PACKAGE_ROOT.split(os.sep)[-1]
 
@@ -44,7 +43,7 @@ REPORT_MIN_UNLOGGED_ZOOM = 16
 # in the lookup below will take on an identifier beginning with its truncated 
 # EntityType, e.g. ACTOR for ACTOR.E39, INFORMATION for INFORMATION_RESOURCE.E73
 EAMENA_RESOURCES = {
-    'HERITAGE_RESOURCE_GROUP.E27': 'EAMENA',
+    'HERITAGE_PLACE.E27': 'EAMENA',
     'HERITAGE_FEATURE.E24': 'EAMENA-F',
     'HERITAGE_COMPONENT.B2': 'EAMENA-C',
 }
@@ -55,8 +54,8 @@ ID_LENGTH = 7 #Indicates the length of the Unique Resource IDs after the set tag
 
 def RESOURCE_TYPE_CONFIGS():
     return {
-        'HERITAGE_RESOURCE_GROUP.E27': {
-            'resourcetypeid': 'HERITAGE_RESOURCE_GROUP.E27',
+        'HERITAGE_PLACE.E27': {
+            'resourcetypeid': 'HERITAGE_PLACE.E27',
             'name': _('Heritage Place'),
             'icon_class': 'fa fa-stop',
             'default_page': 'assessment-summary',
