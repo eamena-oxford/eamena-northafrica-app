@@ -163,17 +163,19 @@ SEARCH_ITEMS_PER_PAGE= 20
 #GEOCODING_PROVIDER = ''
 
 RESOURCE_GRAPH_LOCATIONS = (
-#     # Put strings here, like "/home/data/resource_graphs" or "C:/data/resource_graphs".
-#     # Always use forward slashes, even on Windows.
-#     # Don't forget to use absolute paths, not relative paths.
-     os.path.join(PACKAGE_ROOT, 'resource_graphs'),
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","B2"),
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E24"),
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E27"),
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E39"),
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E73")
 )
 
 ADDITIONAL_RESOURCE_GRAPH_LOCATIONS = (
-     os.path.join(PACKAGE_ROOT, 'additional_resource_graphs'),
+     # os.path.join(PACKAGE_ROOT, 'additional_resource_graphs'),
 )
 
-SKOS_FILE_LOCATION =  None
+SKOS_FILE_LOCATION = os.path.join(PACKAGE_ROOT,"source_data","concepts",
+    "EAMENA-main-app-RDM-Feb15.xml")
 
 CONCEPT_SCHEME_LOCATIONS = (
     # Put strings here, like "/home/data/authority_files" or "C:/data/authority_files".
@@ -181,14 +183,14 @@ CONCEPT_SCHEME_LOCATIONS = (
     # Don't forget to use absolute paths, not relative paths.
     
     #'absolute/path/to/authority_files',
-    os.path.normpath(os.path.join(PACKAGE_ROOT, 'source_data', 'concepts', 'authority_files')),
+    #os.path.normpath(os.path.join(PACKAGE_ROOT, 'source_data', 'concepts', 'authority_files')),
 )
 
 BUSISNESS_DATA_FILES = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.normpath(os.path.join(PACKAGE_ROOT, 'source_data', 'business_data', 'sample.arches')),
+    #os.path.normpath(os.path.join(PACKAGE_ROOT, 'source_data', 'business_data', 'sample.arches')),
 )
 
 EXTEND_ONTOLOGY_SQL = (
