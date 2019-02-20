@@ -21,7 +21,7 @@
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f81a213d-2a51-3498-8b99-3bbad13e0983"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bf16ebb6-4c54-371d-b92e-1cf3810fd677"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/26c7ccb5-4cef-4214-9f83-7069313e5c66"/>
-        <dcterms:title xml:lang="en-US">Arches</dcterms:title>
+        <dcterms:title xml:lang="en-US">EAMENA</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/b8427ea9-35b9-363a-af0e-a868d9428597"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f60a194c-7527-3a8d-baa6-73f21308b136"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/51c4ed4b-b809-4cc6-908e-fd4ca8b634ff"/>
