@@ -598,7 +598,8 @@
                     <dd>
                         <div class="row">
                             <div class="col-xs-12">
-                                <input style="width:33%; height: 36px; padding-top: 2px;" class="select2 arches-select2-crud-form resource-type" placeholder="{% trans 'Cadastral Reference' %}" data-bind="select2: {value: getEditedNode('CADASTRAL_REFERENCE.E44', 'value'), dataKey: 'CADASTRAL_REFERENCE.E44'}"></input>
+                                <input class="form-control arches-form-input" style="width: 66%;" placeholder='{% trans "Cadastral Reference" %}' data-bind='value: getEditedNode("CADASTRAL_REFERENCE.E44", "value")'>
+                                <!-- <input style="width:33%; height: 36px; padding-top: 2px;" class="select2 arches-select2-crud-form resource-type" placeholder="{% trans 'Cadastral Reference' %}" data-bind="select2: {value: getEditedNode('CADASTRAL_REFERENCE.E44', 'value'), dataKey: 'CADASTRAL_REFERENCE.E44'}"></input> -->
                                 {% include 'views/components/add-item-button.htm' %}
                             </div>
                         </div>
@@ -621,7 +622,7 @@
                             <div class="arches-crud-record">
                                 <a href="javascript:void(0)" class="arches-CRUD-child" title="{% trans "Delete this Cadastral Reference" %}"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
                                 <a href="javascript:void(0)" class="arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit this Cadastral Reference" %}">
-                                    <span data-bind='{text: nodes.get("CADASTRAL_REFERENCE.E44", "label")}' style="padding-right:2px;"></span>
+                                    <span data-bind='{text: nodes.get("CADASTRAL_REFERENCE.E44", "value")}' style="padding-right:2px;"></span>
                                 </a>
                             </div>
                         </div>
