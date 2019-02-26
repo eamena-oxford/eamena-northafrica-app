@@ -87,8 +87,13 @@ define(['jquery',
                     dataKey: 'FUNCTION_INTERPRETATION_INFERENCE_MAKING.I5',
                     rules: true,
                     validateBranch: function (nodes) {
-                        var canBeEmpty = ['FUNCTION_INTERPRETATION_INFERENCE_MAKING_ACTOR_NAME.E41'];
-                        return this.validateHasValues(nodes,canBeEmpty);
+                        var canBeEmpty = [
+                            'FUNCTION_INTERPRETATION_INFERENCE_MAKING_ACTOR_NAME.E41',
+                            'INTERPRETATION_TYPE.I4',
+                            'INTERPRETATION_CERTAINTY.I6'
+                        ];
+                        var ck0 = this.validateHasValues(nodes,canBeEmpty);
+                        return ck0;
                     }
                 }));
             },
