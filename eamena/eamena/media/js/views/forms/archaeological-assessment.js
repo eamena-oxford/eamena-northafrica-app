@@ -39,17 +39,17 @@ define(['jquery',
                         return this.validateHasValues(nodes,canBeEmpty);
                     }
                 }));
-                this.addBranchList(new BranchList({
-                    el: this.$el.find('#period-of-occupation')[0],
-                    data: this.data,
-                    dataKey: 'ARCHAEOLOGICAL_TIMESPAN.E52',
-                    validateBranch: function (nodes) {
-                        var ck0 = this.validateHasValues(nodes);
-                        var ck1 =vt.isValidDate(nodes,'ARCHAEOLOGICAL_FROM_DATE.E61');
-                        var ck2 =vt.isValidDate(nodes,'ARCHAEOLOGICAL_TO_DATE.E61');
-                        return ck0 && ck1&& ck2;
-                    }
-                }));
+                // this.addBranchList(new BranchList({
+                    // el: this.$el.find('#period-of-occupation')[0],
+                    // data: this.data,
+                    // dataKey: 'ARCHAEOLOGICAL_TIMESPAN.E52',
+                    // validateBranch: function (nodes) {
+                        // var ck0 = this.validateHasValues(nodes);
+                        // var ck1 =vt.isValidDate(nodes,'ARCHAEOLOGICAL_FROM_DATE.E61');
+                        // var ck2 =vt.isValidDate(nodes,'ARCHAEOLOGICAL_TO_DATE.E61');
+                        // return ck0 && ck1&& ck2;
+                    // }
+                // }));
                 
                 this.addBranchList(new BranchList({
                     el: this.$el.find('#overall-morphology')[0],

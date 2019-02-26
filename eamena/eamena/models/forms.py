@@ -382,7 +382,7 @@ class ArchaeologicalAssessmentForm(ResourceForm):
         
         self.update_nodes('ARCHAEOLOGICAL_CERTAINTY_OBSERVATION.S4', data)
         self.update_nodes('DATE_INFERENCE_MAKING.I5', data)
-        self.update_nodes('ARCHAEOLOGICAL_TIMESPAN.E52', data)
+        # self.update_nodes('ARCHAEOLOGICAL_TIMESPAN.E52', data)
         self.update_nodes('FEATURE_ASSIGNMENT.E13', data)
         self.update_nodes('FEATURE_MORPHOLOGY_TYPE.E55', data)
         self.update_nodes('FUNCTION_INTERPRETATION_INFERENCE_MAKING.I5', data)
@@ -405,10 +405,10 @@ class ArchaeologicalAssessmentForm(ResourceForm):
                     'CULTURAL_PERIOD_DETAIL_TYPE.E55' : Concept().get_e55_domain('CULTURAL_PERIOD_DETAIL_TYPE.E55'),
                 }
             }
-            self.data['ARCHAEOLOGICAL_TIMESPAN.E52'] = {
-                'branch_lists': self.get_nodes('ARCHAEOLOGICAL_TIMESPAN.E52'),
-                'domains': {}
-            }
+            # self.data['ARCHAEOLOGICAL_TIMESPAN.E52'] = {
+                # 'branch_lists': self.get_nodes('ARCHAEOLOGICAL_TIMESPAN.E52'),
+                # 'domains': {}
+            # }
             
             self.data['FEATURE_MORPHOLOGY_TYPE.E55'] = {
                 'branch_lists': self.get_nodes('FEATURE_MORPHOLOGY_TYPE.E55'),
