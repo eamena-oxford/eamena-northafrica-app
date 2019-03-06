@@ -245,7 +245,7 @@ class ModificationForm(ResourceForm):
                 'branch_lists': exclude_empty_branches(self.get_nodes('MODIFICATION.E11'),'CONSTRUCTION_TECHNIQUE_TYPE.E55'),
                 'domains': {
                     'CONSTRUCTION_TECHNIQUE_TYPE.E55' : Concept().get_e55_domain('CONSTRUCTION_TECHNIQUE_TYPE.E55'),
-                    'CONSTRUCTION_MATERIAL.E57' : Concept().get_e55_domain('CONSTRUCTION_MATERIAL.E57')
+                    'MATERIAL_TYPE.E57' : Concept().get_e55_domain('MATERIAL_TYPE.E57')
                 }
             }
 
@@ -1715,8 +1715,8 @@ class PublicationForm(ResourceForm):
             
             self.data['TITLE.E41'] = {
                 'branch_lists': self.get_nodes('TITLE.E41'),
-                'domains': {'TITLE_TYPE.E55' : Concept().get_e55_domain('TITLE_TYPE.E55')
-                 }
+                'domains': {} # {'TITLE_TYPE.E55' : Concept().get_e55_domain('TITLE_TYPE.E55')
+                 #}
             }
             
             self.data['CREATOR_APPELLATION.E82'] = {
@@ -2061,21 +2061,33 @@ class DescriptionForm(ResourceForm):
 
     def update(self, data, files):
         self.update_nodes('DESCRIPTION.E62', data)
-
+        return
+     
     def load(self, lang):
-        description_types = Concept().get_e55_domain('DESCRIPTION_TYPE.E55')
-        try:
-            default_description_type = description_types[2]
-            if self.resource:
-                self.data['DESCRIPTION.E62'] = {
-                    'branch_lists': self.get_nodes('DESCRIPTION.E62'),
-                    'domains': {'DESCRIPTION_TYPE.E55' : description_types},
-                    'defaults': {
-                        'DESCRIPTION_TYPE.E55': default_description_type['id'],
-                    }
+        if self.resource:
+            self.data['DESCRIPTION.E62'] = {
+                'branch_lists': self.get_nodes('DESCRIPTION.E62'),
+                'domains': {
+                    'DESCRIPTION_TYPE.E55' : Concept().get_e55_domain('DESCRIPTION_TYPE.E55')
                 }
-        except IndexError:
-            pass
+            }
+            
+            return
+
+#   def load(self, lang):
+#        description_types = Concept().get_e55_domain('DESCRIPTION_TYPE.E55')
+#        try:
+#            default_description_type = description_types[2]
+#            if self.resource:
+#                self.data['DESCRIPTION.E62'] = {
+#                    'branch_lists': self.get_nodes('DESCRIPTION.E62'),
+#                    'domains': {'DESCRIPTION_TYPE.E55' : description_types}, f
+#                    'defaults': {
+#                      'DESCRIPTION_TYPE.E55': default_description_type['id'],
+#                    }
+#                }
+#        except IndexError:
+#            pass
 
       
 class EditHistory(ResourceForm):

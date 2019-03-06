@@ -49,6 +49,8 @@ define(['jquery',
                             'DISTURBANCE_DATE_TO.E61',
                             'DISTURBANCE_DATE_OCCURRED_BEFORE.E61',
                             'DISTURBANCE_DATE_OCCURRED_ON.E61',
+                            'EFFECT_TYPE.I4',
+                            'EFFECT_CERTAINTY.I6',
                         ];
                         var mustHaveOneOf = [
                             'DISTURBANCE_DATE_FROM.E61',
