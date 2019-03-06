@@ -174,7 +174,7 @@ def report(request, resourceid):
 
     related_resource_dict = {
         'HERITAGE_RESOURCE': [],
-        'HERITAGE_RESOURCE_GROUP': [],
+        'HERITAGE_PLACE': [],
         'HERITAGE_FEATURE': [],
         'HERITAGE_COMPONENT': [],
         'ACTIVITY': [],
@@ -206,7 +206,7 @@ def report(request, resourceid):
         related_res['entitytypeid'] = related_resource['entitytypeid']
         related_res['entityid'] = related_resource['entityid']
         related_res['primaryname'] = related_resource['primaryname']
-        if related_resource['entitytypeid'] == 'HERITAGE_RESOURCE_GROUP.E27':
+        if related_resource['entitytypeid'] == 'HERITAGE_PLACE.E27':
             print JSONResponse(related_resource, indent=4)
             for entity in related_resource['child_entities']:
                 if entity['entitytypeid'] == 'NAME.E41':
