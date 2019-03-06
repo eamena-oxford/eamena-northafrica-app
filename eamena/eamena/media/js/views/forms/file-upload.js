@@ -60,8 +60,9 @@ define(['jquery',
                     var formValues = $('#formdata').val();
                     formData.append('formdata', formValues);
                 });
-                this.dropzoneInstance.on('complete', function(){
-                    location.reload();
+                this.dropzoneInstance.on('success', function(file, response){
+                    var data = JSON.parse(response);
+                    window.location.href = data.url;
                 });
             }
 
