@@ -121,8 +121,9 @@ define(['jquery',
                     formData.append('formdata', formValues);
                     console.log("Sending dropzone", formValues);
                 });
-                this.dropzoneInstance.on('complete', function(){
-                    location.reload();
+                this.dropzoneInstance.on('success', function(file, response){
+                    var data = JSON.parse(response);
+                    window.location.href = data.url;
                 });
             }
 
