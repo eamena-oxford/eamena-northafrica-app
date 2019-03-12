@@ -17,6 +17,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 '''
 
 import re
+import os
 import urllib,json
 from django.template import RequestContext
 from django.shortcuts import render_to_response
@@ -99,6 +100,9 @@ def report(request, resourceid):
                             report_info['subtype'] = 'Imagery'
         if 'FILE_PATH_E62' in report_info['source']['graph']:
             report_info['filepath'] = report_info['source']['graph']['FILE_PATH_E62'][0]
+            fileext = os.path.splitext(report_info['filepath']['FILE_PATH_E62__value'])[1]
+            if fileext == '.jpg' or fileext == '.png':
+                report_info['has_image'] = True
         if 'THUMBNAIL_E62' in report_info['source']['graph']:
             report_info['has_image'] = report_info['source']['graph']['THUMBNAIL_E62'][0]
         if 'URL_E51' in report_info['source']['graph']: #If the resource has a URL, it verifies that it is an APAAME json string, in which case it retrieves the url of the photo from the json string and passes it to the report
