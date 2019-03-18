@@ -168,11 +168,7 @@ SEARCH_ITEMS_PER_PAGE= 20
 #GEOCODING_PROVIDER = ''
 
 RESOURCE_GRAPH_LOCATIONS = (
-    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","B2"),
-    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E24"),
-    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E27"),
-    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E39"),
-    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs","E73")
+    os.path.join(PACKAGE_ROOT,"source_data","resource_graphs"),
 )
 
 ADDITIONAL_RESOURCE_GRAPH_LOCATIONS = (
