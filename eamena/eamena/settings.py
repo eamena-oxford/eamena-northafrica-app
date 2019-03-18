@@ -22,6 +22,13 @@ BULK_UPLOAD_LOG_FILE = os.path.join(PACKAGE_ROOT, 'logs', 'bulk_upload_log.txt')
 
 DATABASES['default']['NAME'] = "eamena_northafrica"
 
+# If the rosetta library has been installed, and add to INSTALLED_APPS
+try:
+    import rosetta
+    INSTALLED_APPS += ('rosetta',)
+except ImportError:
+    pass
+
 try:
     from settings_local import GDAL_LIBRARY_PATH
 except ImportError:
