@@ -432,7 +432,7 @@
         "SCHEMA": [
             {"field_name": "Prim_Name","source": "primaryname", "data_type":"str", "data_length":"128"},
             {"field_name": "ArchesID","source": "entityid", "data_type":"str", "data_length":"128"},
-            {"field_name": "ResType","source": "resource_name", "data_type":"str", "data_length":"128"},
+            {"field_name": "ResType","source": "resource_name", "data_type":"str", "data_length":"255"},
             {"field_name": "HerType","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "HerUseType","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Certainty","source": "field_map", "data_type":"str", "data_length":"128"},
@@ -472,7 +472,12 @@
             {"field_name": "ThrCauseCert","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Desc_Type","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Description","source": "field_map", "data_type":"str", "data_length":"255"},
-            {"field_name": "Assessor","source": "field_map", "data_type":"str", "data_length":"128"}
+            {"field_name": "Assessor","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Priority_Level","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Measurement","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Measurement_Unit","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Dimension_Type","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Measurement_Source","source": "field_map", "data_type":"str", "data_length":"128"}
         ],
         "RESOURCE_TYPES": {
             "HERITAGE_PLACE.E27": {
@@ -628,7 +633,27 @@
                 {
                 "field_name": "Assessor",
                 "entitytypeid": "INVESTIGATOR_NAME.E41"
-                }
+                },
+                {
+                "field_name": "Priority_Level",
+                "entitytypeid": "PRIORITY_TYPE.E55"
+                },
+                {
+                "field_name": "Measurement",
+                "entitytypeid": "MEASUREMENT_NUMBER.E60"
+                },
+                {
+                "field_name": "Measurement_Unit",
+                "entitytypeid": "MEASUREMENT_UNIT.E58"
+                },
+                {
+                "field_name": "Dimension_Type",
+                "entitytypeid": "DIMENSION_TYPE.E55"
+                },
+                {
+                "field_name": "Measurement_Source",
+                "entitytypeid": "MEASUREMENT_SOURCE_TYPE.E55"
+                },
                 ]
             },
         "HERITAGE_FEATURE.E24": {
@@ -668,6 +693,10 @@
                 {
                 "field_name": "Topography",
                 "entitytypeid": "TOPOGRAPHY_TYPE.E55"
+                },
+                {
+                "field_name": "Priority_Level",
+                "entitytypeid": "OVERALL_PRIORITY_TYPE.E55"
                 }
                 ]
             }
