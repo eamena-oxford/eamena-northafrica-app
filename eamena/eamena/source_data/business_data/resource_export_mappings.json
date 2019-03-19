@@ -477,7 +477,8 @@
             {"field_name": "Measurement","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Measurement_Unit","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Dimension_Type","source": "field_map", "data_type":"str", "data_length":"128"},
-            {"field_name": "Measurement_Source","source": "field_map", "data_type":"str", "data_length":"128"}
+            {"field_name": "Measurement_Source","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Feature_Priority_Level","source": "field_map", "data_type":"str", "data_length":"128"}
         ],
         "RESOURCE_TYPES": {
             "HERITAGE_PLACE.E27": {
@@ -695,7 +696,7 @@
                 "entitytypeid": "TOPOGRAPHY_TYPE.E55"
                 },
                 {
-                "field_name": "Priority_Level",
+                "field_name": "Feature_Priority_Level",
                 "entitytypeid": "OVERALL_PRIORITY_TYPE.E55"
                 }
                 ]
