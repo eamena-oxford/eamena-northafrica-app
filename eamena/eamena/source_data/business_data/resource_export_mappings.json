@@ -676,7 +676,11 @@
             {"field_name": "ThrCauseCert","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Desc_Type","source": "field_map", "data_type":"str", "data_length":"128"},
             {"field_name": "Description","source": "field_map", "data_type":"str", "data_length":"255"},
-            {"field_name": "Assessor","source": "field_map", "data_type":"str", "data_length":"128"}
+            {"field_name": "Assessor","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Measurement","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Measurement_Unit","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Priority_Level","source": "field_map", "data_type":"str", "data_length":"128"},
+            {"field_name": "Feature_Priority_Level","source": "field_map", "data_type":"str", "data_length":"128"}
         ],
         "RESOURCE_TYPES": {
             "HERITAGE_PLACE.E27": {
@@ -832,6 +836,18 @@
                 {
                 "field_name": "Assessor",
                 "entitytypeid": "INVESTIGATOR_NAME.E41"
+                },
+                {
+                "field_name": "Measurement",
+                "entitytypeid": "MEASUREMENT_NUMBER.E60"
+                },
+                {
+                "field_name": "Measurement_Unit",
+                "entitytypeid": "MEASUREMENT_UNIT.E58"
+                },
+                {
+                "field_name": "Priority_Level",
+                "entitytypeid": "PRIORITY_TYPE.E55"
                 }
                 ]
             },
@@ -872,6 +888,10 @@
                 {
                 "field_name": "Topography",
                 "entitytypeid": "TOPOGRAPHY_TYPE.E55"
+                },
+                {
+                "field_name": "Feature_Priority_Level",
+                "entitytypeid": "OVERALL_PRIORITY_TYPE.E55"
                 }
                 ]
             }
