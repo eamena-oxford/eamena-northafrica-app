@@ -2,133 +2,122 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 12:54-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-18 15:31-0500\n"
+"PO-Revision-Date: 2019-03-20 07:02-0500\n"
+"Last-Translator: Michael Fisher <michael.fisher@arch.ox.ac.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.7.1\n"
 
-#: eamena/settings.py:32
+#: eamena/settings.py:39
 msgid "English"
 msgstr "انجليزي"
 
-#: eamena/settings.py:33
+#: eamena/settings.py:40
 msgid "Arabic"
 msgstr "عربي"
 
-#: eamena/settings.py:65
+#: eamena/settings.py:72
 #: eamena/templates/views/reports/HERITAGE_PLACE.E27.htm:127
 #: eamena/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:127
-#, fuzzy
 msgid "Heritage Place"
-msgstr "مورد ثقافي E27"
+msgstr " مكان تراثي"
 
-#: eamena/settings.py:68 eamena/settings.py:87 eamena/settings.py:106
+#: eamena/settings.py:75 eamena/settings.py:94 eamena/settings.py:113
 msgid "No name available"
 msgstr "لا يوجد اسم متاح"
 
-#: eamena/settings.py:69 eamena/settings.py:88 eamena/settings.py:107
+#: eamena/settings.py:76 eamena/settings.py:95 eamena/settings.py:114
 msgid "NAME.E41"
 msgstr "E41 الاسم"
 
-#: eamena/settings.py:70 eamena/settings.py:89 eamena/settings.py:108
-#: eamena/settings.py:127 eamena/settings.py:146
+#: eamena/settings.py:77 eamena/settings.py:96 eamena/settings.py:115
+#: eamena/settings.py:134 eamena/settings.py:153
 msgid "Resource"
 msgstr "مورد"
 
-#: eamena/settings.py:84
+#: eamena/settings.py:91
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:127
-#, fuzzy
 msgid "Heritage Feature"
-msgstr "مورد تراثي E18 ملمح"
+msgstr " ظاهرة تراثية"
 
-#: eamena/settings.py:103
+#: eamena/settings.py:110
 #: eamena/templates/views/reports/HERITAGE_COMPONENT.B2.htm:127
-#, fuzzy
 msgid "Heritage Component"
-msgstr "مكون"
+msgstr " مكون"
 
-#: eamena/settings.py:122
+#: eamena/settings.py:129
 msgid "Person/Organization"
-msgstr "شخص/مؤسسة"
+msgstr " شخص/مؤسسة"
 
-#: eamena/settings.py:125 eamena/settings.py:144
+#: eamena/settings.py:132 eamena/settings.py:151
 msgid "No description available"
 msgstr "لا يوجد وصف متاح"
 
-#: eamena/settings.py:126
+#: eamena/settings.py:133
 msgid "ACTOR_APPELLATION.E82"
 msgstr ""
 
-#: eamena/settings.py:141
+#: eamena/settings.py:148
 msgid "Information Resource"
-msgstr "معلومات المورد"
+msgstr " معلومات المورد"
 
-#: eamena/settings.py:145
+#: eamena/settings.py:152
 msgid ""
-"TITLE.E41,CATALOGUE_ID.E42,IMAGERY_CREATOR_APPELLATION.E82,"
-"TILE_SQUARE_DETAILS.E44,CONTRIBUTOR_APPELLATION.E82,"
-"SHARED_DATA_SOURCE_APPELLATION.E82,SHARED_DATA_SOURCE_AFFILIATION.E82,"
-"SHARED_DATA_SOURCE_CREATOR_APPELLATION.E82"
+"TITLE.E41,CATALOGUE_ID.E42,IMAGERY_CREATOR_APPELLATION.E82,TILE_SQUARE_DETAILS.E44,CONTRIBUTOR_APPELLATION.E82,SHARED_DATA_SOURCE_APPELLATION.E82,SHARED_DATA_SOURCE_AFFILIATION.E82,SHARED_DATA_SOURCE_CREATOR_APPELLATION.E82"
 msgstr ""
 
-#: eamena/settings.py:256
-#, fuzzy
+#: eamena/settings.py:259
 msgid "Resource Names"
 msgstr "اسم (أسماء) المورد"
 
-#: eamena/settings.py:257
-#, fuzzy
+#: eamena/settings.py:260
 msgid "Cultural period"
 msgstr "الفترات الثقافية"
 
-#: eamena/settings.py:258
+#: eamena/settings.py:261
 #: eamena/templates/views/forms/archaeological-assessment.htm:170
-#, fuzzy
 msgid "Feature Morphology"
-msgstr "مورفولوجية الموقع العامة"
+msgstr "شكل الظاهرة"
 
-#: eamena/settings.py:259
+#: eamena/settings.py:262
 #, fuzzy
 msgid "Function Interpretation"
 msgstr "التفسير"
 
-#: eamena/settings.py:260
+#: eamena/settings.py:263
 #: eamena/templates/views/forms/component-condition-assessment.htm:49
 #: eamena/templates/views/forms/condition-assessment-feature.htm:46
 #: eamena/templates/views/forms/condition-assessment.htm:63
 #: eamena/templates/views/reports/HERITAGE_COMPONENT.B2.htm:210
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:252
-#, fuzzy
 msgid "Damage"
-msgstr "صور"
+msgstr "ضرر"
 
-#: eamena/settings.py:261
+#: eamena/settings.py:264
 #: eamena/templates/views/forms/component-condition-assessment.htm:362
 #: eamena/templates/views/forms/component-condition-assessment.htm:372
 #: eamena/templates/views/forms/condition-assessment-feature.htm:321
 #: eamena/templates/views/forms/condition-assessment-feature.htm:397
-#, fuzzy
 msgid "Threat"
-msgstr "مخاطر"
+msgstr "التهديد"
 
-#: eamena/settings.py:262
+#: eamena/settings.py:265
 #: eamena/templates/views/forms/condition-assessment-feature.htm:302
 #: eamena/templates/views/reports/HERITAGE_COMPONENT.B2.htm:255
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:297
 msgid "Risk"
-msgstr ""
+msgstr "خطر"
 
 #: eamena/models/forms.py:113 eamena/models/forms.py:1183
 #: eamena/models/forms.py:1235
@@ -145,20 +134,17 @@ msgid "Resource Summary"
 msgstr "ملخص المورد"
 
 #: eamena/models/forms.py:152
-#, fuzzy
 msgid "Feature Summary"
-msgstr "ملخص المورد"
+msgstr "ملخص الظاهرة"
 
 #: eamena/models/forms.py:196
-#, fuzzy
 msgid "Component Classification"
-msgstr "تصنيف"
+msgstr "تصنيف المكونات"
 
 #: eamena/models/forms.py:220 eamena/models/forms.py:258
 #: eamena/templates/views/reports/HERITAGE_COMPONENT.B2.htm:181
-#, fuzzy
 msgid "Modification and Construction"
-msgstr "تعديلات"
+msgstr "التحوير والبناء"
 
 #: eamena/models/forms.py:296 eamena/models/forms.py:321
 #: eamena/templates/views/forms/assessment-summary.htm:12
@@ -180,9 +166,8 @@ msgstr "قياسات"
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:185
 #: eamena/templates/views/reports/HERITAGE_PLACE.E27.htm:188
 #: eamena/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:188
-#, fuzzy
 msgid "Archaeological Assessment"
-msgstr "مدى التأكد الأثري"
+msgstr "التقييم الأثري"
 
 #: eamena/models/forms.py:481 eamena/models/forms.py:917
 #: eamena/models/forms.py:1026 eamena/models/forms.py:1287
@@ -199,15 +184,13 @@ msgstr "إدخال آخر"
 
 #: eamena/models/forms.py:692
 #: eamena/templates/views/reports/sections/related_resource_section.htm:121
-#, fuzzy
 msgid "Related Heritage Features"
-msgstr "E27 موراد تراثية  ذات صلة"
+msgstr "ظاهرة على بالتراث"
 
 #: eamena/models/forms.py:820
 #: eamena/templates/views/reports/sections/related_resource_section.htm:201
-#, fuzzy
 msgid "Related Heritage Components"
-msgstr "E27 موراد تراثية  ذات صلة"
+msgstr "المكونات ذات الصلة"
 
 #: eamena/models/forms.py:1122
 #: eamena/templates/views/forms/external-reference.htm:14
@@ -333,16 +316,15 @@ msgid "Leicester"
 msgstr ""
 
 #: eamena/templates/index.htm:34
-#, fuzzy
 msgid "and"
-msgstr "النهاية"
+msgstr "و"
 
 #: eamena/templates/index.htm:34
 msgid ""
 "the EAMENA Database brings together data from satellite imagery and "
 "published reports to make available information about archaeological sites "
-"and landscapes which are under threat. Using Arches, an open source platform "
-"designed by the Getty Conservation Institute and World Monuments Fund, we "
+"and landscapes which are under threat. Using Arches, an open source platform"
+" designed by the Getty Conservation Institute and World Monuments Fund, we "
 "have been able to build a resource that can be used online by researchers "
 "and heritage professionals across the MENA region, Europe and beyond."
 msgstr ""
@@ -354,10 +336,10 @@ msgstr ""
 #: eamena/templates/index.htm:36
 msgid ""
 "The archaeology of this region can be explored via the public Database, "
-"which is available in both English and Arabic. Users can see the progress of "
-"the project so far by clicking on the Map View. This will display all the "
-"records that we have created, and it is continually updated. As the Database "
-"contains over 200,000 records, please be patient while these resources are "
+"which is available in both English and Arabic. Users can see the progress of"
+" the project so far by clicking on the Map View. This will display all the "
+"records that we have created, and it is continually updated. As the Database"
+" contains over 200,000 records, please be patient while these resources are "
 "loaded. Different types of records are coloured differently. So, for "
 "example, all our site records are in yellow. The key to the different "
 "colours is located in the Overlays tab. If you click on this, you can also "
@@ -368,9 +350,17 @@ msgid ""
 "each site. Using the Map View it is also possible to zoom in to see more "
 "details about each area. Try toggling to a full-screen view by clicking on "
 "the arrows in the top right hand corner of the map screen. To see a list of "
-"records created by the project, you can also select the Search option in the "
-"top right hand tab."
+"records created by the project, you can also select the Search option in the"
+" top right hand tab."
 msgstr ""
+
+#: eamena/templates/header.htm:100
+msgid "Map View"
+msgstr "رؤية الخريطة"
+
+#: eamena/templates/header.htm:109
+msgid "Resource Manager"
+msgstr "مدير المصدر"
 
 #: eamena/templates/index.htm:38
 msgid "Continue as a Visitor"
@@ -461,7 +451,7 @@ msgstr "اسم مستخدم و/أو كلمة سر غير صالح/ة"
 
 #: eamena/templates/map.htm:63 eamena/templates/map.htm.py:65
 msgid "Find Address/Coordinates (Lat/Long)"
-msgstr ""
+msgstr "البحث عن عنوان / إحداثيات (خط العرض / خط الطول)"
 
 #: eamena/templates/map.htm:76
 msgid "Loading resource data..."
@@ -621,7 +611,8 @@ msgstr "تصدير نظام"
 msgid "Delete Scheme"
 msgstr "احذف نظام"
 
-#: eamena/templates/rdm.htm:120 eamena/templates/views/rdm/concept-report.htm:3
+#: eamena/templates/rdm.htm:120
+#: eamena/templates/views/rdm/concept-report.htm:3
 #: eamena/templates/views/rdm/entitytype-report.htm:3
 msgid "Loading..."
 msgstr "تحميل..."
@@ -682,7 +673,7 @@ msgstr "مرشح الزمن"
 
 #: eamena/templates/search.htm:40 eamena/templates/search.htm.py:44
 msgid "No group"
-msgstr ""
+msgstr "لا مجموعة"
 
 #: eamena/templates/search.htm:117
 msgid "View Popular Searches"
@@ -740,22 +731,19 @@ msgid "City Admin Area"
 msgstr "منطقة إدارية بالمدينة"
 
 #: eamena/templates/map/resource-layers.htm:8
-#, fuzzy
 msgid "All Resources"
-msgstr "مورد"
+msgstr "جميع الموارد"
 
 #: eamena/templates/map/resource-layers.htm:9
 msgid "Load all the EAMENA resources"
 msgstr ""
 
 #: eamena/templates/map/resource-layers.htm:11
-#, fuzzy
 msgid "resource"
 msgstr "مورد"
 
 #: eamena/templates/map/resource-layers.htm:16
 #: eamena/templates/map/resource-layers.htm:37
-#, fuzzy
 msgid "visible zoom range: all"
 msgstr "المدى المرئي لاقتراب الكاميرا"
 
@@ -769,19 +757,16 @@ msgid "Site function(s)"
 msgstr "وظيفة (وظائف) الموقع"
 
 #: eamena/templates/map/resource-popup.htm:27
-#, fuzzy
 msgid "Disturbance(s)"
 msgstr "اضطرابات"
 
 #: eamena/templates/map/resource-popup.htm:32
-#, fuzzy
 msgid "Feature interpretation(s)"
 msgstr "تفسير الملمح"
 
 #: eamena/templates/map/resource-popup.htm:34
-#, fuzzy
 msgid "Overall condition(s)"
-msgstr "الحالة العامة للمورد"
+msgstr "الحالة العامة"
 
 #: eamena/templates/map/resource-popup.htm:39
 msgid "Person/Organization Name"
@@ -1147,17 +1132,14 @@ msgid "Edit this item"
 msgstr "تعديل هذا البند"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:10
-#, fuzzy
 msgid "Feature Cultural Period and Interpretation"
 msgstr "تفسير الملمح"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:16
-#, fuzzy
 msgid "Cultural Period Type"
 msgstr "فترة ثقافية"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:21
-#, fuzzy
 msgid "Cultural Period Detail Type"
 msgstr "لم يتم تحديد فترات تاريخية"
 
@@ -1209,24 +1191,20 @@ msgstr "(إلى (يوم/شهر/ سنة "
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:47
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:107
-#, fuzzy
 msgid "Function Type"
-msgstr "نوع الوصف"
+msgstr "نوع وظيفة"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:52
-#, fuzzy
 msgid "Function Certainty"
-msgstr "مدى التأكد من الموقع"
+msgstr "مدى التأكد من وظيفة"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:57
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:111
 #: eamena/templates/views/forms/archaeological-assessment.htm:246
-#, fuzzy
 msgid "Interpretation Type"
 msgstr "نوع التفسير"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:62
-#, fuzzy
 msgid "Interpretation Certainty"
 msgstr "مدى التأكد من التفسير"
 
@@ -1240,9 +1218,8 @@ msgstr "مدى التأكد من التفسير"
 #: eamena/templates/views/forms/condition-assessment-feature.htm:374
 #: eamena/templates/views/forms/condition-assessment.htm:189
 #: eamena/templates/views/forms/condition-assessment.htm:261
-#, fuzzy
 msgid "Identified by"
-msgstr "محددات"
+msgstr "عُرَف من قبل"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:83
 msgid ""
@@ -1260,19 +1237,17 @@ msgstr ""
 #: eamena/templates/views/forms/modification.htm:43
 #: eamena/templates/views/forms/modification.htm:88
 #: eamena/templates/views/forms/modification.htm:134
-#, fuzzy
 msgid "edit"
-msgstr "المحرر"
+msgstr "تصحيح"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:97
 #: eamena/templates/views/forms/archaeological-assessment.htm:60
 #: eamena/templates/views/forms/archaeological-assessment.htm:66
 #: eamena/templates/views/forms/district_classification.htm:70
 msgid "Cultural Period"
-msgstr "فترة ثقافية"
+msgstr "الفترات الثقافية"
 
 #: eamena/templates/views/forms/archaeological-assessment-feature.htm:99
-#, fuzzy
 msgid "Cultural Period Details"
 msgstr "فترة ثقافية"
 
@@ -1280,13 +1255,12 @@ msgstr "فترة ثقافية"
 #: eamena/templates/views/forms/archaeological-assessment.htm:104
 #: eamena/templates/views/forms/archaeological-assessment.htm:221
 msgid "by:"
-msgstr ""
+msgstr "بواسطة:"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:13
 #: eamena/templates/views/reports/sections/OVERALL_SITE_CERTAINTY.htm:6
-#, fuzzy
 msgid "Overall Archaeological Certainty"
-msgstr "مدى التأكد الأثري"
+msgstr "التأكيد الأثري إجمالاً"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:23
 msgid "Certainty required."
@@ -1311,17 +1285,14 @@ msgid "Edit this keyword"
 msgstr "تعديل هذه الكلمة المفتاح"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:68
-#, fuzzy
 msgid "Sub-Period"
-msgstr "العصر"
+msgstr "جنوب فترة"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:83
-#, fuzzy
 msgid "Cultural Period required."
 msgstr "لم يتم تحديد فترات تاريخية"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:93
-#, fuzzy
 msgid "This resource has these Cultural Periods:"
 msgstr "لهذا المورد الفترات الثقافية التالية"
 
@@ -1351,14 +1322,12 @@ msgid "( Sub-Period )"
 msgstr "العصر"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:103
-#, fuzzy
 msgid "( Certainty )"
 msgstr "مدى التأكد"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:124
-#, fuzzy
 msgid "Overall Morphology"
-msgstr "مورفولوجية الموقع العامة"
+msgstr "إجمالي المورفولوجيا (شكل سطح الأرض)"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:129
 msgid "Morphology"
@@ -1370,14 +1339,12 @@ msgid "Morphology required."
 msgstr "المورفولوجية"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:144
-#, fuzzy
 msgid "Overall morphology of the cultural heritage resource:"
 msgstr "مدى التأكد من أن هذا مورد تراث ثقافي"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:147
-#, fuzzy
 msgid "No Morphology Defined"
-msgstr "لم يتم تحديد دولة"
+msgstr "لا شكل محدد"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:176
 #: eamena/templates/views/reports/sections/E27_FEATURE_FORMS.htm:19
@@ -1385,14 +1352,12 @@ msgid "Form Type"
 msgstr "نوع الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:178
-#, fuzzy
 msgid "Form Certainty"
-msgstr "مدى التأكد"
+msgstr "اليقين من الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:181
-#, fuzzy
 msgid "Form Shape"
-msgstr "نوع الشكل"
+msgstr "شكل الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:183
 #: eamena/templates/views/forms/class.htm:37
@@ -1428,9 +1393,8 @@ msgid "This resource has these functions:"
 msgstr "هذا المورد له هذه الوظائف"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:211
-#, fuzzy
 msgid "No Feature morphology Defined"
-msgstr "لم يتم تحديد قياسات"
+msgstr "لا التشكل الملمح محددة"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:214
 #, fuzzy
@@ -1438,19 +1402,16 @@ msgid "Delete this Feature morphology"
 msgstr "احذف هذه القياسات"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:216
-#, fuzzy
 msgid "( Form Type )"
 msgstr "نوع الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:217
-#, fuzzy
 msgid "( Form Certainty )"
-msgstr "مدى التأكد"
+msgstr "اليقين من الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:218
-#, fuzzy
 msgid "( Form Shape )"
-msgstr "نوع الشكل"
+msgstr "شكل الشكل"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:219
 #, fuzzy
@@ -1463,44 +1424,36 @@ msgid "( Form Number )"
 msgstr "الرقم"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:240
-#, fuzzy
 msgid "Feature Interpretation"
 msgstr "تفسير الملمح"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:248
-#, fuzzy
 msgid "Type Certainty"
 msgstr "مدى التأكد من النوع"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:253
-#, fuzzy
 msgid "Function 1 Type"
-msgstr "نوع الوصف"
+msgstr "نوع  وظيفة 1"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:255
-#, fuzzy
 msgid "Function 1 Certainty"
-msgstr "مدى التأكد من الموقع"
+msgstr "مدى تأكيد الوظيفة 1"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:258
-#, fuzzy
 msgid "Function 2 Type"
-msgstr "نوع الوصف"
+msgstr "نوع الوظيفة 2"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:260
-#, fuzzy
 msgid "Function 2 Certainty"
-msgstr "مدى التأكد من الموقع"
+msgstr "مدى تأكيد الوظيفة 2"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:284
-#, fuzzy
 msgid "This resource has these Feature Interpretations:"
 msgstr "هذا المورد له هذه الوظائف"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:287
-#, fuzzy
 msgid "No Feature Interpretation Defined"
-msgstr "تفسير الملمح"
+msgstr "لا التشكل تفسير الملمح محددة"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:290
 #, fuzzy
@@ -1528,37 +1481,34 @@ msgid "( Function Type )"
 msgstr "لم يتم تحديد وظيفة"
 
 #: eamena/templates/views/forms/archaeological-assessment.htm:298
-#, fuzzy
 msgid "( Function Certainty )"
-msgstr "مدى التأكد من الموقع"
+msgstr "مدى التأكد من وظيفة"
 
 #: eamena/templates/views/forms/assessment-summary.htm:18
 #: eamena/templates/views/forms/component-assessment.htm:12
 #: eamena/templates/views/forms/man-made-component.htm:347
 #: eamena/templates/views/forms/man-made.htm:415
 msgid "Investigator Name"
-msgstr ""
+msgstr "اسم من قام بالفحص"
 
 #: eamena/templates/views/forms/assessment-summary.htm:20
 #: eamena/templates/views/forms/component-assessment.htm:16
 #: eamena/templates/views/forms/man-made-component.htm:351
 #: eamena/templates/views/forms/man-made.htm:417
 msgid "Investigator Role"
-msgstr ""
+msgstr "دور المحقق"
 
 #: eamena/templates/views/forms/assessment-summary.htm:23
 #: eamena/templates/views/forms/component-assessment.htm:21
 #: eamena/templates/views/forms/man-made-component.htm:356
 #: eamena/templates/views/forms/man-made.htm:420
-#, fuzzy
 msgid "Type of Activity"
-msgstr "نشاط"
+msgstr "نوع النشاط"
 
 #: eamena/templates/views/forms/assessment-summary.htm:27
 #: eamena/templates/views/forms/man-made.htm:424
-#, fuzzy
 msgid "date (yyyy-mm-dd)"
-msgstr "التاريخ (السنة-الشهر-اليوم"
+msgstr "التاريخ (السنة-الشهر-اليوم)"
 
 #: eamena/templates/views/forms/assessment-summary.htm:36
 #: eamena/templates/views/forms/summary-feature.htm:244
@@ -1567,14 +1517,12 @@ msgid "All values must be populated, and dates must be valid (YYYY-MM-DD)."
 msgstr "يجب تعبئة جميع القيم"
 
 #: eamena/templates/views/forms/assessment-summary.htm:46
-#, fuzzy
 msgid "Assessment Summaries:"
-msgstr "ملخص التقييم"
+msgstr "ملخصات التقييم"
 
 #: eamena/templates/views/forms/assessment-summary.htm:49
-#, fuzzy
 msgid "No Summaries Defined"
-msgstr "لم يتم تحديد سلسلة"
+msgstr "لم يتم إدخال ملخص"
 
 #: eamena/templates/views/forms/assessment-summary.htm:52
 #, fuzzy
@@ -1987,9 +1935,8 @@ msgstr "نوع رقم التفسير"
 
 #: eamena/templates/views/forms/component-assessment.htm:27
 #: eamena/templates/views/forms/man-made-component.htm:362
-#, fuzzy
 msgid "Date of Activity (yyyy-mm-dd)"
-msgstr "التاريخ (السنة-الشهر-اليوم"
+msgstr "التاريخ (السنة-الشهر-اليوم)"
 
 #: eamena/templates/views/forms/component-assessment.htm:39
 #: eamena/templates/views/forms/man-made-component.htm:374
@@ -2001,7 +1948,7 @@ msgstr ""
 #: eamena/templates/views/forms/component-assessment.htm:53
 #: eamena/templates/views/forms/man-made-component.htm:388
 msgid "( Investigator Name )"
-msgstr ""
+msgstr "(اسم من قام بالفحص)"
 
 #: eamena/templates/views/forms/component-assessment.htm:55
 #: eamena/templates/views/forms/man-made-component.htm:390
@@ -2010,14 +1957,13 @@ msgstr ""
 
 #: eamena/templates/views/forms/component-assessment.htm:57
 #: eamena/templates/views/forms/man-made-component.htm:392
-#, fuzzy
 msgid "( Type of Activity )"
 msgstr "مدى التأكد من النوع"
 
 #: eamena/templates/views/forms/component-assessment.htm:59
 #: eamena/templates/views/forms/man-made-component.htm:394
 msgid "( Date of Activity )"
-msgstr ""
+msgstr "التاريخ (السنة-الشهر-اليوم)"
 
 #: eamena/templates/views/forms/component-classification.htm:13
 #, fuzzy
@@ -2041,32 +1987,29 @@ msgstr "يجب تحديد نوع وتاريخ"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:28
 #: eamena/templates/views/forms/condition-assessment-feature.htm:28
-#, fuzzy
 msgid "Part 1: Damage"
-msgstr "الجزء الأول: ملخص"
+msgstr "خطوة 1 ضرر"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:31
-#, fuzzy
 msgid "Part 2: Image"
 msgstr "الجزء الثاني: العنوان"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:34
-#, fuzzy
 msgid "Part 3: Threat"
-msgstr "الجزء الثاني: العنوان"
+msgstr "الجزء الثالث: التهديد"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:37
 msgid "Part 4: Recommendation and Priority"
-msgstr ""
+msgstr "الجزء الرابع: التوصيات والأولويات"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:49
 #: eamena/templates/views/forms/condition-assessment-feature.htm:46
 msgid "Step 1"
-msgstr ""
+msgstr "خطوة 1"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:53
 msgid "Record observed damage to the component."
-msgstr ""
+msgstr "سجل الملاحظات على الأضرار التي لحقت المكون"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:59
 #: eamena/templates/views/forms/condition-assessment-feature.htm:56
@@ -2077,9 +2020,8 @@ msgstr "اضطرابات"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:66
 #: eamena/templates/views/forms/component-condition-assessment.htm:172
-#, fuzzy
 msgid "Cause Category"
-msgstr "مدى التأكد من السبب"
+msgstr "سبب الفئة"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:71
 #: eamena/templates/views/forms/component-condition-assessment.htm:173
@@ -2094,9 +2036,8 @@ msgstr "السبب"
 #: eamena/templates/views/forms/component-condition-assessment.htm:174
 #: eamena/templates/views/forms/condition-assessment-feature.htm:83
 #: eamena/templates/views/forms/condition-assessment.htm:117
-#, fuzzy
 msgid "Cause Certainty"
-msgstr "مدى التأكد من السبب"
+msgstr "اليقين من السبب"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:81
 #: eamena/templates/views/forms/component-condition-assessment.htm:175
@@ -2113,7 +2054,6 @@ msgstr "التأثير 1"
 #: eamena/templates/views/forms/component-condition-assessment.htm:87
 #: eamena/templates/views/forms/condition-assessment-feature.htm:89
 #: eamena/templates/views/forms/condition-assessment.htm:146
-#, fuzzy
 msgid " Date Type "
 msgstr "نوع التاريخ"
 
@@ -2153,25 +2093,23 @@ msgstr "(إلى (يوم/شهر/ سنة "
 #: eamena/templates/views/forms/component-condition-assessment.htm:176
 #: eamena/templates/views/forms/condition-assessment-feature.htm:68
 #: eamena/templates/views/forms/condition-assessment-feature.htm:160
-#, fuzzy
 msgid "Damage Trend"
-msgstr "إدارة الأبوين"
+msgstr "اتجاه الضرر أو مساره"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:139
 #: eamena/templates/views/forms/component-condition-assessment.htm:177
 msgid "Damage Severity"
-msgstr ""
+msgstr "خطورة الأضرار"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:144
 #: eamena/templates/views/forms/component-condition-assessment.htm:178
-#, fuzzy
 msgid "Damage Extent"
 msgstr "مدى الاضطراب"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:163
 msgid ""
-"Cause Category must be populated, and dates must be properly formatted (yyyy-"
-"mm-dd)."
+"Cause Category must be populated, and dates must be properly formatted "
+"(yyyy-mm-dd)."
 msgstr ""
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:167
@@ -2246,7 +2184,7 @@ msgstr "تعديل هذا المصدر"
 #: eamena/templates/views/forms/condition-assessment-feature.htm:165
 #: eamena/templates/views/forms/condition-assessment-feature.htm:407
 msgid "by: "
-msgstr ""
+msgstr "بواسطة:"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:181
 #: eamena/templates/views/forms/condition-assessment-feature.htm:167
@@ -2257,7 +2195,7 @@ msgstr ""
 #: eamena/templates/views/reports/sections/ROLE.htm:39
 #: eamena/templates/views/reports/sections/designation_section.htm:70
 msgid "From: "
-msgstr "هيئة"
+msgstr "هيئة:"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:182
 #: eamena/templates/views/forms/condition-assessment-feature.htm:168
@@ -2268,7 +2206,7 @@ msgstr "هيئة"
 #: eamena/templates/views/reports/sections/ROLE.htm:42
 #: eamena/templates/views/reports/sections/designation_section.htm:76
 msgid "To: "
-msgstr "إلى"
+msgstr "إلى:"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:183
 #: eamena/templates/views/forms/component-condition-assessment.htm:348
@@ -2276,19 +2214,19 @@ msgstr "إلى"
 #: eamena/templates/views/reports/sections/E24_DISTURBANCE_TYPE.htm:53
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:56
 msgid "On: "
-msgstr ""
+msgstr "على:"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:184
 #: eamena/templates/views/forms/condition-assessment-feature.htm:170
 #: eamena/templates/views/reports/sections/E24_DISTURBANCE_TYPE.htm:48
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:51
 msgid "Before: "
-msgstr ""
+msgstr "قبل:"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:199
 #: eamena/templates/views/forms/condition-assessment-feature.htm:302
 msgid "Step 2"
-msgstr ""
+msgstr "خطوة 2 "
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:199
 #, fuzzy
@@ -2297,12 +2235,11 @@ msgstr "صور"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:203
 msgid "Upload image of component condition."
-msgstr ""
+msgstr "تحميل صورة لحالة المكون"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:210
-#, fuzzy
 msgid "File Upload"
-msgstr "إدخال آخر"
+msgstr "ارفع ملف"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:236
 #: eamena/templates/views/forms/publication.htm:207
@@ -2317,9 +2254,8 @@ msgid "Title"
 msgstr "عنوان"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:243
-#, fuzzy
 msgid "Image Title"
-msgstr "تفاصيل الصورة"
+msgstr "عنوان الصورة"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:251
 #: eamena/templates/views/forms/component-condition-assessment.htm:289
@@ -2328,18 +2264,16 @@ msgid "You must enter a value."
 msgstr ""
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:272
-#, fuzzy
 msgid "Caption"
-msgstr "الموقع"
+msgstr "شرح"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:309
-#, fuzzy
 msgid "Other Information"
-msgstr "معلومات الملف"
+msgstr "معلومات أخرى"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:317
 msgid "Date (yyyy-mm-dd)"
-msgstr "التاريخ (السنة-الشهر-اليوم"
+msgstr "التاريخ (السنة-الشهر-اليوم)"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:329
 #: eamena/templates/views/forms/component-condition-assessment.htm:347
@@ -2350,11 +2284,11 @@ msgstr "حقوق النشر"
 #: eamena/templates/views/forms/component-condition-assessment.htm:362
 #: eamena/templates/views/forms/condition-assessment-feature.htm:469
 msgid "Step 3"
-msgstr ""
+msgstr "خطوة 3"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:366
 msgid "Record perceived risks to the component."
-msgstr ""
+msgstr "لمحة المخاطر المتوقعة للمكون"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:381
 #: eamena/templates/views/forms/component-condition-assessment.htm:419
@@ -2363,12 +2297,11 @@ msgstr ""
 #: eamena/templates/views/forms/condition-assessment.htm:112
 #: eamena/templates/views/forms/condition-assessment.htm:255
 msgid "Category"
-msgstr ""
+msgstr "الفئة"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:391
-#, fuzzy
 msgid "Probability Type"
-msgstr "نوع النشاط"
+msgstr "نوع احتمالا"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:410
 #: eamena/templates/views/forms/component-condition-assessment.htm:469
@@ -2385,27 +2318,25 @@ msgstr "تعديل هذا النوع"
 #: eamena/templates/views/forms/condition-assessment-feature.htm:349
 #: eamena/templates/views/forms/condition-assessment-feature.htm:402
 msgid "Probability"
-msgstr ""
+msgstr "احتمالا"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:438
 msgid "Step 4"
-msgstr ""
+msgstr "خطوة 4"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:438
-#, fuzzy
 msgid "Recommendation and Priority"
-msgstr "لم يتم تسجيل توصيات"
+msgstr "التوصيات والأولويات"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:442
 msgid "Recommend and prioritise intervention activity."
-msgstr ""
+msgstr "التوصية وتحديد أولويات نشاط التدخل"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:448
 #: eamena/templates/views/forms/component-condition-assessment.htm:456
 #: eamena/templates/views/forms/component-condition-assessment.htm:478
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:17
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:35
-#, fuzzy
 msgid "Recommendation"
 msgstr "توصيات للإدارة"
 
@@ -2413,9 +2344,8 @@ msgstr "توصيات للإدارة"
 #: eamena/templates/views/forms/component-condition-assessment.htm:479
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:20
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:38
-#, fuzzy
 msgid "Intervention"
-msgstr "التفسير"
+msgstr "التدخل"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:491
 #: eamena/templates/views/forms/component-condition-assessment.htm:498
@@ -2427,7 +2357,7 @@ msgstr "التفسير"
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:24
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:42
 msgid "Priority"
-msgstr ""
+msgstr "أولوية"
 
 #: eamena/templates/views/forms/component-condition-assessment.htm:506
 #: eamena/templates/views/forms/condition-assessment-feature.htm:199
@@ -2486,15 +2416,13 @@ msgstr "نعم"
 
 #: eamena/templates/views/forms/component-modification.htm:13
 #: eamena/templates/views/forms/modification.htm:13
-#, fuzzy
 msgid "Type of Modification"
-msgstr "تعديلات"
+msgstr "نوع التحوير "
 
 #: eamena/templates/views/forms/component-modification.htm:19
 #: eamena/templates/views/forms/modification.htm:19
-#, fuzzy
 msgid "Date of Modification (yyyy-mm-dd)"
-msgstr "التاريخ (السنة-الشهر-اليوم"
+msgstr "تاريخ التحوير (السنة-الشهر-اليوم)"
 
 #: eamena/templates/views/forms/component-modification.htm:31
 #: eamena/templates/views/forms/modification.htm:31
@@ -2504,7 +2432,6 @@ msgstr ""
 
 #: eamena/templates/views/forms/component-modification.htm:60
 #: eamena/templates/views/forms/modification.htm:60
-#, fuzzy
 msgid "Modification Remarks"
 msgstr "تعديلات"
 
@@ -2520,15 +2447,13 @@ msgstr "احذف هذا الوصف"
 #: eamena/templates/views/forms/component-modification.htm:136
 #: eamena/templates/views/forms/modification.htm:104
 #: eamena/templates/views/forms/modification.htm:136
-#, fuzzy
 msgid "Construction Material"
-msgstr "الحالة"
+msgstr "مادة البناء"
 
 #: eamena/templates/views/forms/component-modification.htm:109
 #: eamena/templates/views/forms/component-modification.htm:138
-#, fuzzy
 msgid "Modification Technique"
-msgstr "لم يتم تحديد تعديلات"
+msgstr "تقنية التعديل"
 
 #: eamena/templates/views/forms/component-modification.htm:113
 #: eamena/templates/views/forms/component-modification.htm:140
@@ -2589,22 +2514,21 @@ msgid "Edit this description"
 msgstr "تعديل هذا الوصف"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:31
-#, fuzzy
 msgid "Part 2: Risk"
-msgstr "الجزء الثاني: العنوان"
+msgstr "خطوة 2 خطر "
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:34
 msgid "Part 3: Overall Condition and Priority Assignment"
-msgstr ""
+msgstr "خطوة 3 الحالة إجمالاً وتقييم الأولويات"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:50
 msgid "Record observed damage to the feature."
-msgstr ""
+msgstr "سجل الضرر للميزة لاحظت"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:63
 #: eamena/templates/views/forms/condition-assessment-feature.htm:159
 msgid "Effect/Damage"
-msgstr ""
+msgstr "تأثير / الضرر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:150
 msgid ""
@@ -2613,42 +2537,37 @@ msgid ""
 msgstr ""
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:184
-#, fuzzy
 msgid "Overall Disturbance Severity"
-msgstr "المدى العام للاضطرابات"
+msgstr "أجمال مستوى قسوة الاختلال"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:191
-#, fuzzy
 msgid "Overall Condition / Damage Severity"
-msgstr "الحالة العامة للمورد"
+msgstr "الحالة العامة / خطورة الأضرار"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:219
 #: eamena/templates/views/forms/condition-assessment-feature.htm:226
 msgid "Damage Overall Extent"
-msgstr ""
+msgstr "مدى الضرر الكلي"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:254
-#, fuzzy
 msgid "Recommendations and Priority"
-msgstr "لم يتم تسجيل توصيات"
+msgstr "التوصيات والأولويات"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:261
 #: eamena/templates/views/forms/condition-assessment-feature.htm:287
 #: eamena/templates/views/forms/condition-assessment.htm:314
-#, fuzzy
 msgid "Type of Recommendation"
-msgstr "توصيات للإدارة"
+msgstr "نوع التوصية"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:266
 #: eamena/templates/views/forms/condition-assessment-feature.htm:288
 #: eamena/templates/views/forms/condition-assessment.htm:320
-#, fuzzy
 msgid "Intervention Activity Type"
-msgstr "نوع النشاط"
+msgstr "نوع أعمال التدخل"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:271
 msgid "Priority to Undertake Intervention Activity"
-msgstr ""
+msgstr "أولوية القيام بنشاط التدخل"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:287
 #: eamena/templates/views/forms/condition-assessment-feature.htm:396
@@ -2658,15 +2577,15 @@ msgstr "تعديل هذه النسخة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:306
 msgid "Record perceived risks to the feature."
-msgstr ""
+msgstr "سجل المخاطر المتصورة لهذه الميزة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:312
 msgid "Threat and Risk Identification"
-msgstr ""
+msgstr "تحديد التهديد والخطر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:326
 msgid "Potential Impact"
-msgstr ""
+msgstr "التأثير المحتمل"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:331
 #: eamena/templates/views/forms/condition-assessment-feature.htm:399
@@ -2674,41 +2593,38 @@ msgid "Secondary Threat"
 msgstr ""
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:335
-#, fuzzy
 msgid "Risk Assessment"
-msgstr "تقييم الحالة"
+msgstr "تقييم الخطر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:339
 #: eamena/templates/views/forms/condition-assessment-feature.htm:400
-#, fuzzy
 msgid "Exposure"
-msgstr "تصدير"
+msgstr "واجهة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:344
 #: eamena/templates/views/forms/condition-assessment-feature.htm:401
 msgid "Vulnerability"
-msgstr ""
+msgstr "عالي التأثر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:354
 #: eamena/templates/views/forms/condition-assessment-feature.htm:403
 msgid "Extent"
-msgstr ""
+msgstr "مدى"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:359
 #: eamena/templates/views/forms/condition-assessment-feature.htm:404
 msgid "Severity"
-msgstr ""
+msgstr "مستوى القسوة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:364
 #: eamena/templates/views/forms/condition-assessment-feature.htm:405
 msgid "Risk Level"
-msgstr ""
+msgstr "مستوى الخطر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:369
 #: eamena/templates/views/forms/condition-assessment-feature.htm:406
-#, fuzzy
 msgid "Risk Certainty"
-msgstr "مدى التأكد"
+msgstr "درجة الخطر"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:398
 msgid "Impact"
@@ -2717,55 +2633,48 @@ msgstr ""
 #: eamena/templates/views/forms/condition-assessment-feature.htm:427
 #: eamena/templates/views/forms/condition-assessment-feature.htm:434
 #: eamena/templates/views/forms/condition-assessment-feature.htm:455
-#, fuzzy
 msgid "Mitigation Strategy"
-msgstr "الحالة"
+msgstr "استراتيجية كبح وتقليل الخطر "
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:439
 msgid "Priority to Undertake Mitigation"
-msgstr ""
+msgstr "أولوية للتخفيف"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:469
-#, fuzzy
 msgid "Overall Condition and Priority Assignment"
-msgstr "الحالة العامة للمورد"
+msgstr " "
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:473
 msgid "Record overall condition and assign priority to feature."
-msgstr ""
+msgstr "تسجيل الحالة العامة وإعطاء الأولوية لهذه الميزة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:479
 #: eamena/templates/views/forms/condition-assessment-feature.htm:486
-#, fuzzy
 msgid "Overall State"
-msgstr "الشكل العام للموقع"
+msgstr "الوضع العام"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:514
 #: eamena/templates/views/forms/man-made.htm:507
 msgid "Overall Priority to Implement Actions"
-msgstr ""
+msgstr "الأولوية الشاملة لتنفيذ الإجراءات"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:549
 #: eamena/templates/views/forms/condition-assessment-feature.htm:556
-#, fuzzy
 msgid "Date of Next Assessment"
-msgstr "تاريخ التقييم"
+msgstr "تاريخ التقييم التالي"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:584
 #: eamena/templates/views/forms/man-made.htm:541
-#, fuzzy
 msgid "Condition Remarks"
-msgstr "الحالة"
+msgstr "ملاحظات الحالة"
 
 #: eamena/templates/views/forms/condition-assessment-feature.htm:591
-#, fuzzy
 msgid "Overall Condition Remarks"
-msgstr "الحالة العامة للمورد"
+msgstr "ملاحظات الحالة العامة"
 
 #: eamena/templates/views/forms/condition-assessment.htm:12
-#, fuzzy
 msgid "Overall Site Condition"
-msgstr "مدى التأكد بصورة عامة من الموقع"
+msgstr "الحالة الإجمالية للموقع"
 
 #: eamena/templates/views/forms/condition-assessment.htm:17
 #: eamena/templates/views/forms/man-made.htm:466
@@ -2808,7 +2717,7 @@ msgstr ""
 
 #: eamena/templates/views/forms/condition-assessment.htm:58
 msgid "Overall Damage Extent (Horizontal)"
-msgstr ""
+msgstr "مدى الاضطراب الكلي"
 
 #: eamena/templates/views/forms/condition-assessment.htm:68
 #, fuzzy
@@ -2837,7 +2746,7 @@ msgstr "تعديل هذا التاريخ"
 
 #: eamena/templates/views/forms/condition-assessment.htm:86
 msgid "( Damaged Extent )"
-msgstr ""
+msgstr "مدى الاضطراب"
 
 #: eamena/templates/views/forms/condition-assessment.htm:120
 #: eamena/templates/views/forms/measurement.htm:161
@@ -2921,9 +2830,8 @@ msgid "( Cause )"
 msgstr "السبب"
 
 #: eamena/templates/views/forms/condition-assessment.htm:220
-#, fuzzy
 msgid "( Cause Certainty )"
-msgstr "مدى التأكد من السبب"
+msgstr "اليقين من السبب"
 
 #: eamena/templates/views/forms/condition-assessment.htm:223
 #, fuzzy
@@ -2964,17 +2872,15 @@ msgstr "مخاطر"
 
 #: eamena/templates/views/forms/condition-assessment.htm:259
 msgid "Certainty/Probability Type"
-msgstr ""
+msgstr "نوع مدى التأكد/احتمالا"
 
 #: eamena/templates/views/forms/condition-assessment.htm:282
-#, fuzzy
 msgid "This resource has these Threats:"
-msgstr "هذاالمورد له هؤلاء المؤلفين"
+msgstr "هذا المورد لديه هذه التهديدات:"
 
 #: eamena/templates/views/forms/condition-assessment.htm:285
-#, fuzzy
 msgid "No Threat Defined"
-msgstr "لم يتم تحديد تشكيل"
+msgstr "لا يوجد تهديد"
 
 #: eamena/templates/views/forms/condition-assessment.htm:288
 #, fuzzy
@@ -2983,7 +2889,7 @@ msgstr "احذف هذه الحقوق"
 
 #: eamena/templates/views/forms/condition-assessment.htm:292
 msgid "( Probability )"
-msgstr ""
+msgstr "احتمالا"
 
 #: eamena/templates/views/forms/condition-assessment.htm:305
 #: eamena/templates/views/forms/location.htm:489
@@ -3012,14 +2918,12 @@ msgid "Edit this recomendation"
 msgstr "تعديل هذه النسخة"
 
 #: eamena/templates/views/forms/condition-assessment.htm:343
-#, fuzzy
 msgid "( Recommendation )"
 msgstr "توصيات للإدارة"
 
 #: eamena/templates/views/forms/condition-assessment.htm:344
-#, fuzzy
 msgid "( Intervention )"
-msgstr "التفسير"
+msgstr "التدخل"
 
 #: eamena/templates/views/forms/condition-assessment.htm:365
 msgid "Priority Level"
@@ -3036,9 +2940,8 @@ msgid "Priorities of this cultural heritage resource:"
 msgstr "مدى التأكد من أن هذا مورد تراث ثقافي"
 
 #: eamena/templates/views/forms/condition-assessment.htm:388
-#, fuzzy
 msgid "No Priority Defined"
-msgstr "لم يتم تحديد مدى التأكد"
+msgstr "الأولوية غير محددة"
 
 #: eamena/templates/views/forms/condition-assessment.htm:391
 #, fuzzy
@@ -3065,9 +2968,8 @@ msgstr "مواقع لها خرائط"
 #: eamena/templates/views/forms/location.htm:69
 #: eamena/templates/views/forms/man-made-component.htm:120
 #: eamena/templates/views/forms/man-made.htm:122
-#, fuzzy
 msgid "Date of imagery: "
-msgstr "تاريخ الدخول"
+msgstr "تاريخ الدخول:"
 
 #: eamena/templates/views/forms/coverage.htm:102
 #: eamena/templates/views/forms/man-made-component.htm:175
@@ -3310,9 +3212,8 @@ msgid "Previous value:"
 msgstr "السابق"
 
 #: eamena/templates/views/forms/edit-history.htm:81
-#, fuzzy
 msgid "Updated value:"
-msgstr "أضف قيمة"
+msgstr "قيمة جديدة"
 
 #: eamena/templates/views/forms/edit-history.htm:92
 #: eamena/templates/views/forms/edit-history.htm:107
@@ -3322,18 +3223,16 @@ msgstr "عنوان المورد"
 
 #: eamena/templates/views/forms/edit-history.htm:96
 #: eamena/templates/views/forms/edit-history.htm:111
-#, fuzzy
 msgid "New value:"
-msgstr "أضف قيمة"
+msgstr "قيمة جديدة"
 
 #: eamena/templates/views/forms/edit-history.htm:122
 msgid "record deleted"
 msgstr ""
 
 #: eamena/templates/views/forms/edit-history.htm:126
-#, fuzzy
 msgid "Value:"
-msgstr "قيم"
+msgstr "القيمة:"
 
 #: eamena/templates/views/forms/edit-history.htm:133
 msgid "Edited by:"
@@ -3421,10 +3320,10 @@ msgstr "موافق"
 #: eamena/templates/views/forms/file-upload.htm:191
 msgid ""
 "DISCLAIMER: Please bear in mind that the database is OPEN-ACCESS and "
-"therefore ANY images or files that are uploaded must be Public Domain. It is "
-"your responsibility to ensure that you have permission to upload the file "
-"into the EAMENA database and that doing so does not violate any copyright or "
-"intellectual property laws. Any images or files that are found to violate "
+"therefore ANY images or files that are uploaded must be Public Domain. It is"
+" your responsibility to ensure that you have permission to upload the file "
+"into the EAMENA database and that doing so does not violate any copyright or"
+" intellectual property laws. Any images or files that are found to violate "
 "copyright will be DELETED immediately. If you find any images or files in "
 "the database that you know or suspect to be in breach of copyright, please "
 "notify a member of the EAMENA team. Furthermore, if you upload any personal "
@@ -3436,14 +3335,14 @@ msgstr ""
 " إخلاء المسئولية: الرجا الأخذ في الاعتبار أن قاعدة البيانات هي (مصدر مفتوح) "
 "ولذلك يجب أن تكون جميع الصور والملفات التي يتم تحميلها ملكية عامة. وهي "
 "مسئوليتك أن تتأكد أن لديك تصريح بتحميل الملف على قاعدة بيانت يامينا وأنك "
-"عندما تفعل ذلك لا تتعدى على أية قوانين متعلقة بحقوق ملكية فكرية وحقوق النسخ. "
-"وإذا وجد أن أية صورة أو أي ملف يخالف حوق النسخ سيتم حذفه فوراً. وإن وجدت أية "
-"صور أو ملفات في قاعدة البيانات تعلم أو تشك أنها تنتهك حقوق النسخ فالرجاء "
-"إبلاغ أحد أعضاء فريق يامينا. وكذلك الرجا الأخذ في الاعتبار أن عند تحميلك "
+"عندما تفعل ذلك لا تتعدى على أية قوانين متعلقة بحقوق ملكية فكرية وحقوق النسخ."
+" وإذا وجد أن أية صورة أو أي ملف يخالف حوق النسخ سيتم حذفه فوراً. وإن وجدت "
+"أية صور أو ملفات في قاعدة البيانات تعلم أو تشك أنها تنتهك حقوق النسخ فالرجاء"
+" إبلاغ أحد أعضاء فريق يامينا. وكذلك الرجا الأخذ في الاعتبار أن عند تحميلك "
 "لأية ملفات أو صور شخصية (مثال: صور شخصية، أو الملاحظات الخاصة بك فيما يخص "
 "المساحة) فقد يتم تنزيل هذه الملفات أو الصور واستخدامها بواسطة أي شخص من "
-"العامة. وتخلي يامينا مسئوليتها عن أية ملفات يتم تنزيلها واستخدامها بطريقة لا "
-"تقرّها أو لم تتوقعها الجهة التي قامت بتحميله."
+"العامة. وتخلي يامينا مسئوليتها عن أية ملفات يتم تنزيلها واستخدامها بطريقة لا"
+" تقرّها أو لم تتوقعها الجهة التي قامت بتحميله."
 
 #: eamena/templates/views/forms/imagery.htm:16
 #: eamena/templates/views/forms/imagery.htm:36
@@ -3653,7 +3552,8 @@ msgstr "تعديل نوع التشكيل هذا"
 #: eamena/templates/views/forms/location-component.htm:10
 #: eamena/templates/views/forms/location.htm:11
 msgid ""
-"The geometry you have drawn is likely to overlap with the following features:"
+"The geometry you have drawn is likely to overlap with the following "
+"features:"
 msgstr ""
 
 #: eamena/templates/views/forms/location-component.htm:17
@@ -3706,7 +3606,6 @@ msgstr ""
 #: eamena/templates/views/forms/location.htm:171
 #: eamena/templates/views/forms/man-made-component.htm:267
 #: eamena/templates/views/forms/man-made.htm:269
-#, fuzzy
 msgid "( Location Certainty )"
 msgstr "مدى التأكد من الموقع"
 
@@ -3740,9 +3639,8 @@ msgid "No Grid ID Defined"
 msgstr "لم يتم تحديد هوية الشبكة"
 
 #: eamena/templates/views/forms/location.htm:281
-#, fuzzy
 msgid "Overall Feature Shape"
-msgstr "الشكل العام للموقع"
+msgstr "مورفولوجية الظاهرة العامة"
 
 #: eamena/templates/views/forms/location.htm:283
 msgid "Overall Site Shape"
@@ -3759,9 +3657,8 @@ msgid "This resource has the following Overall Shape"
 msgstr "هذا المورد له هذه الأدوار"
 
 #: eamena/templates/views/forms/location.htm:323
-#, fuzzy
 msgid "No Overall Shape Defined"
-msgstr "لم يتم تحديد مكان"
+msgstr "لم يتم تحديد الشكل"
 
 #: eamena/templates/views/forms/location.htm:328
 #: eamena/templates/views/forms/man-made-component.htm:316
@@ -3779,22 +3676,18 @@ msgid "Edit this value"
 msgstr "تعديل هذه القيمة"
 
 #: eamena/templates/views/forms/location.htm:353
-#, fuzzy
 msgid "Certainty of Geometric Extent"
 msgstr "مدى التأكد من أبعاد الخصائص الهندسية"
 
 #: eamena/templates/views/forms/location.htm:358
-#, fuzzy
 msgid "Geometry"
-msgstr "أضف خصائص هندسية"
+msgstr "علم الهندسة"
 
 #: eamena/templates/views/forms/location.htm:363
-#, fuzzy
 msgid "Certainty of Geometric Extent required."
 msgstr "مدى التأكد من أبعاد الخصائص الهندسية"
 
 #: eamena/templates/views/forms/location.htm:373
-#, fuzzy
 msgid "This resource has the following Certainty of Geometric Extent:"
 msgstr "هذا المورد له هذه الإسنادات"
 
@@ -3815,32 +3708,26 @@ msgstr "تعديل هذه الخصائص الهندسية"
 
 #: eamena/templates/views/forms/location.htm:398
 #: eamena/templates/views/forms/location.htm:403
-#, fuzzy
 msgid "Topography"
-msgstr "الطبوغرافية"
+msgstr "الموقع الطبوغرافي"
 
 #: eamena/templates/views/forms/location.htm:408
-#, fuzzy
 msgid "Topography required."
 msgstr "مدى التأكد المطلوب"
 
 #: eamena/templates/views/forms/location.htm:418
-#, fuzzy
 msgid "This resource is set in the following Topography:"
 msgstr "هذا المورد له هذه المراحل"
 
 #: eamena/templates/views/forms/location.htm:421
-#, fuzzy
 msgid "No Topography Defined"
 msgstr "لم يتم تحديد حقوق نشر"
 
 #: eamena/templates/views/forms/location.htm:424
-#, fuzzy
 msgid "Delete this Topography"
 msgstr "احذف حقوق النشر هذه"
 
 #: eamena/templates/views/forms/location.htm:425
-#, fuzzy
 msgid "Edit this Topography"
 msgstr "تعديل حقوق النشر هذه"
 
@@ -3850,9 +3737,8 @@ msgid "Country required."
 msgstr "مدى التأكد المطلوب"
 
 #: eamena/templates/views/forms/location.htm:465
-#, fuzzy
 msgid "This resource is located in the following Country(s):"
-msgstr "هذا المورد يقع في المناطق الإدارية التالية"
+msgstr "يقع هذا المورد في الدولة (الدول) التالية:"
 
 #: eamena/templates/views/forms/location.htm:471
 #, fuzzy
@@ -3980,7 +3866,6 @@ msgstr "ملامح"
 
 #: eamena/templates/views/forms/man-made-component.htm:29
 #: eamena/templates/views/forms/man-made.htm:29
-#, fuzzy
 msgid "This resource has no related features yet"
 msgstr "هذا المورد لاتوجد ملفات خاصة به بعد"
 
@@ -4002,9 +3887,8 @@ msgstr "تصنيف"
 
 #: eamena/templates/views/forms/man-made-component.htm:79
 #: eamena/templates/views/forms/man-made.htm:78
-#, fuzzy
 msgid "Part 3: Assessment Summary"
-msgstr "ملخص التقييم"
+msgstr "الجزء الثالث: ملخص التقييم"
 
 #: eamena/templates/views/forms/man-made-component.htm:82
 #: eamena/templates/views/forms/related-files.htm:304
@@ -4013,14 +3897,13 @@ msgstr "الجزء الرابع: العلاقة"
 
 #: eamena/templates/views/forms/man-made-component.htm:93
 #: eamena/templates/views/forms/man-made.htm:95
-#, fuzzy
 msgid "Feature Location"
-msgstr "مواقع لها خرائط"
+msgstr " "
 
 #: eamena/templates/views/forms/man-made-component.htm:96
 #: eamena/templates/views/forms/man-made.htm:98
 msgid "Locate your heritage feature (only one geometry may be added)"
-msgstr ""
+msgstr "حدد ميزة التراث (يمكن إضافة شكل واحد فقط)"
 
 #: eamena/templates/views/forms/man-made-component.htm:268
 #: eamena/templates/views/forms/man-made.htm:270
@@ -4061,15 +3944,14 @@ msgstr "الجزء الرابع"
 #: eamena/templates/views/forms/man-made-component.htm:419
 #: eamena/templates/views/forms/man-made.htm:597
 #: eamena/templates/views/forms/man-made.htm:605
-#, fuzzy
 msgid "Relation"
-msgstr "علاقة"
+msgstr " "
 
 #: eamena/templates/views/forms/man-made-component.htm:414
 #: eamena/templates/views/forms/man-made.htm:600
 msgid ""
 "Enter the relation type binding the heritage feature to its heritage place"
-msgstr ""
+msgstr "أدخل نوع العلاقة الذي يربط ميزة التراث بمكان التراث"
 
 #: eamena/templates/views/forms/man-made-component.htm:425
 #: eamena/templates/views/forms/man-made.htm:611
@@ -4086,123 +3968,105 @@ msgid "Some of the required fields in this wizard have not been filled."
 msgstr ""
 
 #: eamena/templates/views/forms/man-made.htm:72
-#, fuzzy
 msgid "Part 1: Feature Location"
-msgstr "الجزء الثالث: الوصف"
+msgstr "الجزء الأول: موقع الملمح"
 
 #: eamena/templates/views/forms/man-made.htm:75
-#, fuzzy
 msgid "Part 2: Heritage Classification"
 msgstr "تصنيف المورد"
 
 #: eamena/templates/views/forms/man-made.htm:81
-#, fuzzy
 msgid "Part 4: Condition"
-msgstr "الحالة"
+msgstr "الجزء الرابع: الحالة"
 
 #: eamena/templates/views/forms/man-made.htm:84
-#, fuzzy
 msgid "Part 5: Relation"
-msgstr "الجزء الرابع: العلاقة"
+msgstr "الجزء خمسة: العلاقة"
 
 #: eamena/templates/views/forms/man-made.htm:291
 #: eamena/templates/views/forms/summary.htm:82
-#, fuzzy
 msgid "Heritage Classification"
-msgstr "تصنيف المورد"
+msgstr "تصنيف التراث"
 
 #: eamena/templates/views/forms/man-made.htm:294
 msgid ""
 "Insert any known names for the feature, its classification and current use"
-msgstr ""
+msgstr "قم بتضمين أي أسماء معروفة لهذه الميزة والتصنيف والاستخدام الحالي"
 
 #: eamena/templates/views/forms/man-made.htm:299
 #: eamena/templates/views/forms/summary-feature.htm:17
-#, fuzzy
 msgid "Feature Name(s)"
-msgstr "اسم (أسماء) المورد"
+msgstr "اسم/أسماء الظاهرة"
 
 #: eamena/templates/views/forms/man-made.htm:305
-#, fuzzy
 msgid "Name Type"
-msgstr "نوع آلة التصوير"
+msgstr "نوع الاسم"
 
 #: eamena/templates/views/forms/man-made.htm:314
-#, fuzzy
 msgid "No Name added"
 msgstr "لم يتم تحديد أية أسماء"
 
 #: eamena/templates/views/forms/man-made.htm:322
 #: eamena/templates/views/forms/summary.htm:38
-#, fuzzy
 msgid "Name and name type must be populated."
 msgstr "يجب ملئ قيمة الاسم وقيمة نوع الاسم"
 
 #: eamena/templates/views/forms/man-made.htm:332
 #: eamena/templates/views/forms/summary-feature.htm:339
-#, fuzzy
 msgid "Feature Classification"
-msgstr "تصنيف المورد"
+msgstr "تصنيف ملامح"
 
 #: eamena/templates/views/forms/man-made.htm:346
-#, fuzzy
 msgid "No Classification added"
 msgstr "لم يتم تسجيل تصنيفات"
 
 #: eamena/templates/views/forms/man-made.htm:364
-#, fuzzy
 msgid "Feature Use(s)"
-msgstr "ملامح"
+msgstr "استخدام ملامح"
 
 #: eamena/templates/views/forms/man-made.htm:369
-#, fuzzy
 msgid "Feature Use"
-msgstr "ملامح"
+msgstr "استخدام ملامح"
 
 #: eamena/templates/views/forms/man-made.htm:378
-#, fuzzy
 msgid "No Use added"
-msgstr "لم يتم تحديد موقع على الانترنت"
+msgstr "الاستخدام غير محدد"
 
 #: eamena/templates/views/forms/man-made.htm:404
 msgid "Add the assessment details pertaining to the heritage feature"
-msgstr ""
+msgstr "إضافة تفاصيل التقييم المتعلقة بالتراث"
 
 #: eamena/templates/views/forms/man-made.htm:435
-#, fuzzy
 msgid "No Assessment Summaries added"
-msgstr "ملخص التقييم"
+msgstr "لم يتم اضافة ملخص التقييم"
 
 #: eamena/templates/views/forms/man-made.htm:450
 msgid ""
-"Investigator name, type of activity and date must be populated, and the date "
-"be in the format YYYY-MM-DD."
+"Investigator name, type of activity and date must be populated, and the date"
+" be in the format YYYY-MM-DD."
 msgstr ""
 
 #: eamena/templates/views/forms/man-made.htm:469
 msgid ""
 "Enter the feature's overall condition, its priority level and any remarks"
-msgstr ""
+msgstr "أدخل الحالة العامة للميزة ، ومستوى الأولوية وأي ملاحظات"
 
 #: eamena/templates/views/forms/man-made.htm:474
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:214
-#, fuzzy
 msgid "Overall Condition"
-msgstr "الحالة العامة للمورد"
+msgstr "الحالة العامة"
 
 #: eamena/templates/views/forms/man-made.htm:487
-#, fuzzy
 msgid "No Condition added"
 msgstr "لم يتم تسجيل الحالة"
 
 #: eamena/templates/views/forms/man-made.htm:520
 msgid "No Priority added"
-msgstr ""
+msgstr "الأولوية غير محددة"
 
 #: eamena/templates/views/forms/man-made.htm:564
-#, fuzzy
 msgid "No Condition Remarks Defined"
-msgstr "لم يتم تحديد نسخة"
+msgstr "لا ملاحظات الحالة"
 
 #: eamena/templates/views/forms/man-made.htm:569
 #, fuzzy
@@ -4215,9 +4079,8 @@ msgid "Remark type and comments must be populated."
 msgstr "يجب إدخال قيمة نوع الدور"
 
 #: eamena/templates/views/forms/man-made.htm:597
-#, fuzzy
 msgid "Part 5"
-msgstr "الجزء الأول"
+msgstr "الجزء خمسة"
 
 #: eamena/templates/views/forms/measurement.htm:15
 msgid "Condition State"
@@ -4272,7 +4135,7 @@ msgstr "السبب"
 #: eamena/templates/views/forms/measurement.htm:154
 #: eamena/templates/views/forms/measurement.htm:302
 msgid "Cause certainty"
-msgstr "مدى التأكد من السبب"
+msgstr "اليقين من السبب"
 
 #: eamena/templates/views/forms/measurement.htm:162
 #: eamena/templates/views/forms/measurement.htm:168
@@ -4305,7 +4168,8 @@ msgstr "نوع التاريخ"
 #: eamena/templates/views/forms/measurement.htm:230
 msgid ""
 "The following fields must be entered: Disturbance Cause; Disturbance Cause "
-"Certainty; Effect 1; Effect 1 Certainty; Disturbance Type; Date Type; Date to"
+"Certainty; Effect 1; Effect 1 Certainty; Disturbance Type; Date Type; Date "
+"to"
 msgstr ""
 
 #: eamena/templates/views/forms/measurement.htm:245
@@ -4320,7 +4184,7 @@ msgstr "السبب"
 #: eamena/templates/views/forms/measurement.htm:256
 #: eamena/templates/views/forms/measurement.htm:345
 msgid "cause certainty"
-msgstr "مدى التأكد من السبب"
+msgstr "اليقين من السبب"
 
 #: eamena/templates/views/forms/measurement.htm:259
 #: eamena/templates/views/forms/measurement.htm:264
@@ -4358,9 +4222,8 @@ msgid "Threat state defined records:"
 msgstr "السجلات التي تم تحديدها لحالة المخاطر"
 
 #: eamena/templates/views/forms/measurementvalues.htm:23
-#, fuzzy
 msgid "Value"
-msgstr "قيم"
+msgstr "قيمة"
 
 #: eamena/templates/views/forms/measurementvalues.htm:25
 msgid "Unit"
@@ -4382,7 +4245,7 @@ msgstr "لم يتم تحديد قياسات"
 #: eamena/templates/views/forms/modification.htm:109
 #: eamena/templates/views/forms/modification.htm:138
 msgid "Construction Technique"
-msgstr ""
+msgstr "تقنية البناء"
 
 #: eamena/templates/views/forms/phase.htm:30
 #: eamena/templates/views/reports/HISTORICAL_EVENT.E5.htm:257
@@ -4925,19 +4788,16 @@ msgstr "تاريخ مشاركة مصدر البيانات"
 
 #: eamena/templates/views/forms/summary-feature.htm:81
 #: eamena/templates/views/forms/summary-feature.htm:88
-#, fuzzy
 msgid "Current Use"
-msgstr "الوالد الحالي"
+msgstr "الاستخدام الحالي"
 
 #: eamena/templates/views/forms/summary-feature.htm:114
 #: eamena/templates/views/forms/summary-feature.htm:372
 #: eamena/templates/views/forms/summary.htm:116
-#, fuzzy
 msgid "This resource is classified as:"
-msgstr "هذا المورد منضور عنه هنا"
+msgstr "هذا المورد مصنف على أنه"
 
 #: eamena/templates/views/forms/summary-feature.htm:117
-#, fuzzy
 msgid "No Current Use Defined"
 msgstr "لم يتم تحديد قياسات"
 
@@ -4948,16 +4808,14 @@ msgid "( Designation Type )"
 msgstr "نوع الوصف"
 
 #: eamena/templates/views/forms/summary-feature.htm:375
-#, fuzzy
 msgid "No Feature Classification Defined"
-msgstr "لم يتم تحديد تعديلات"
+msgstr "لا تصنيف الملامح"
 
 #: eamena/templates/views/forms/summary.htm:17
 msgid "Resource Name(s)"
 msgstr "اسم (أسماء) المورد"
 
 #: eamena/templates/views/forms/summary.htm:119
-#, fuzzy
 msgid "No Heritage Classification Defined"
 msgstr "لم يتم تحديد تعديلات"
 
@@ -5084,8 +4942,8 @@ msgid ""
 "By deleting this concept, you will also be deleting the following concepts "
 "as well.  This operation cannot be undone."
 msgstr ""
-"بحذف هذا المفهوم، فأنت تحذف أيضاً المفاهيم التالية أيضاً. هذه العملية لا يمكن "
-"عكسها"
+"بحذف هذا المفهوم، فأنت تحذف أيضاً المفاهيم التالية أيضاً. هذه العملية لا "
+"يمكن عكسها"
 
 #: eamena/templates/views/rdm/concept-report.htm:184
 msgid "Related Concepts"
@@ -5148,8 +5006,8 @@ msgid ""
 "This concept or one of its subconcepts is already in use by an existing "
 "resource."
 msgstr ""
-"هذا المفهوم، أو واحد من المفاهيم الفرعية الخاصة به، يستعمل فعلياً بواسطة مورد "
-"آخر"
+"هذا المفهوم، أو واحد من المفاهيم الفرعية الخاصة به، يستعمل فعلياً بواسطة "
+"مورد آخر"
 
 #: eamena/templates/views/rdm/concept-report.htm:326
 msgid "Ok"
@@ -5429,9 +5287,8 @@ msgstr "تاريخ الدخول"
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:46
 #: eamena/templates/views/reports/HERITAGE_PLACE.E27.htm:46
 #: eamena/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:46
-#, fuzzy
 msgid "Date of imagery:"
-msgstr "تاريخ الدخول"
+msgstr "تاريخ الدخول:"
 
 #: eamena/templates/views/reports/HERITAGE_COMPONENT.B2.htm:46
 #: eamena/templates/views/reports/HERITAGE_FEATURE.E24.htm:46
@@ -5532,7 +5389,7 @@ msgstr "لم يتم تسجيل تصنيفات"
 
 #: eamena/templates/views/reports/sections/B2_MODIFICATION.htm:6
 msgid "Modification and Constructions(s)"
-msgstr ""
+msgstr "التحوير والبناء"
 
 #: eamena/templates/views/reports/sections/B2_MODIFICATION.htm:9
 #, fuzzy
@@ -5595,9 +5452,8 @@ msgid "Feature(s) Classification(s)"
 msgstr "تصنيف المورد"
 
 #: eamena/templates/views/reports/sections/CLASSIFICATION.htm:9
-#, fuzzy
 msgid "No Feature Classification recorded"
-msgstr "لم يتم تسجيل تصنيفات"
+msgstr "لا تصنيف الملامح"
 
 #: eamena/templates/views/reports/sections/COMPONENT.E18.htm:6
 msgid "Features"
@@ -5625,7 +5481,6 @@ msgid "Cultural periods"
 msgstr "الفترات الثقافية"
 
 #: eamena/templates/views/reports/sections/CULTURAL_PERIODS.htm:8
-#, fuzzy
 msgid "No cultural period  recorded"
 msgstr "لم يتم تحديد فترات تاريخية"
 
@@ -5641,7 +5496,6 @@ msgid "Current Feature(s) Use(s)"
 msgstr "الوالد الحالي"
 
 #: eamena/templates/views/reports/sections/CURRENT_USE.htm:9
-#, fuzzy
 msgid "No Feature Use recorded"
 msgstr "لم يتم تسجيل ملامح"
 
@@ -5656,14 +5510,12 @@ msgid "No overall damage extent recorded"
 msgstr "لم يتم تسجيل تفاصيل الصورة"
 
 #: eamena/templates/views/reports/sections/DAMAGE_SEVERITY.htm:6
-#, fuzzy
 msgid "Overall damage severity"
-msgstr "مدى التأكد بصورة عامة من الموقع"
+msgstr "مدى التأكد خطورة الأضرار"
 
 #: eamena/templates/views/reports/sections/DAMAGE_SEVERITY.htm:8
-#, fuzzy
 msgid "No overall damage severity recorded"
-msgstr "لم يتم تسجيل صور"
+msgstr "لا يوجد أي ضرر شامل مسجل"
 
 #: eamena/templates/views/reports/sections/DESCRIPTION.E62.htm:8
 #: eamena/templates/views/reports/sections/DESCRIPTION_OF_LOCATION.E62.htm:10
@@ -5691,7 +5543,6 @@ msgstr "الحالة العامة للمورد"
 
 #: eamena/templates/views/reports/sections/E24_CONDITION_STATE.htm:8
 #: eamena/templates/views/reports/sections/E27_CONDITION_STATE.htm:8
-#, fuzzy
 msgid "No overall condition recorded"
 msgstr "لم يتم تسجيل الحالة"
 
@@ -5710,7 +5561,7 @@ msgstr "لم يتم تسجيل اضطرابات"
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:22
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:92
 msgid "Category: "
-msgstr ""
+msgstr "الفئة:"
 
 #: eamena/templates/views/reports/sections/E24_DISTURBANCE_TYPE.htm:26
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:29
@@ -5720,9 +5571,8 @@ msgstr "السبب"
 
 #: eamena/templates/views/reports/sections/E24_DISTURBANCE_TYPE.htm:30
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:33
-#, fuzzy
 msgid "Cause certainty: "
-msgstr "مدى التأكد من السبب"
+msgstr "اليقين من السبب"
 
 #: eamena/templates/views/reports/sections/E24_DISTURBANCE_TYPE.htm:67
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:73
@@ -5749,15 +5599,13 @@ msgstr "لم يتم تسجيل تفسيرات للملمح"
 #: eamena/templates/views/reports/sections/E24_FEATURE_INTERPRETATIONS.htm:31
 #: eamena/templates/views/reports/sections/E27_FEATURE_INTERPRETATIONS.htm:34
 #: eamena/templates/views/reports/sections/SITE_FUNCTION_TYPE.htm:15
-#, fuzzy
 msgid "Function"
-msgstr "وظيفة الموقع"
+msgstr "وظيفة"
 
 #: eamena/templates/views/reports/sections/E24_FEATURE_INTERPRETATIONS.htm:34
 #: eamena/templates/views/reports/sections/E27_FEATURE_INTERPRETATIONS.htm:37
-#, fuzzy
 msgid " Function Certainty"
-msgstr "مدى التأكد من الموقع"
+msgstr "مدى التأكد من وظيفة"
 
 #: eamena/templates/views/reports/sections/E27_DISTURBANCE_TYPE.htm:80
 #, fuzzy
@@ -5964,7 +5812,7 @@ msgstr "لم يتم تسجيل قطع"
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:6
 #, fuzzy
 msgid "Recommendations to address damage(s)"
-msgstr "لم يتم تسجيل توصيات"
+msgstr ""
 
 #: eamena/templates/views/reports/sections/RECOMMENDATIONS.htm:8
 #: eamena/templates/views/reports/sections/condition_assessment_section.htm:236
@@ -5978,36 +5826,34 @@ msgstr "أنواع الموارد"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:6
 msgid "Threat and risks identified"
-msgstr ""
+msgstr "تحديد التهديد والخطر"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:8
 #, fuzzy
 msgid "No risk assessment recorded"
-msgstr "لم يتم تسجيل بيان الأهمية"
+msgstr ""
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:22
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:89
-#, fuzzy
 msgid "Threat: "
-msgstr "مخاطر"
+msgstr "التهديد"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:26
 msgid "Potential Impact: "
-msgstr ""
+msgstr "التأثير المحتمل:"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:40
-#, fuzzy
 msgid "Exposure: "
-msgstr "تصدير"
+msgstr "واجهة:"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:43
 msgid "Vulnerability: "
-msgstr ""
+msgstr "عالي التأثر:"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:51
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:95
 msgid "Probability: "
-msgstr ""
+msgstr "احتمالا:"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:54
 #, fuzzy
@@ -6020,12 +5866,12 @@ msgstr ""
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:66
 msgid "Risk Level: "
-msgstr ""
+msgstr "مستوى الخطر:"
 
 #: eamena/templates/views/reports/sections/RISK_IDENTIFICATION.htm:69
 #, fuzzy
 msgid "Risk Level Certainty: "
-msgstr "مدى التأكد من النوع"
+msgstr ""
 
 #: eamena/templates/views/reports/sections/ROLE.htm:11
 #: eamena/templates/views/reports/sections/ROLE.htm:18
@@ -6091,14 +5937,13 @@ msgstr "لم يتم تسجيل بيان الأهمية"
 
 #: eamena/templates/views/reports/sections/THREAT_TYPE.htm:22
 msgid "Threat category: "
-msgstr ""
+msgstr "فئة التهديد:"
 
 #: eamena/templates/views/reports/sections/THREAT_TYPE.htm:29
 msgid "Potential cause: "
 msgstr ""
 
 #: eamena/templates/views/reports/sections/THREAT_TYPE.htm:35
-#, fuzzy
 msgid "Cause probability: "
 msgstr "مدى التأكد من السبب"
 
@@ -6151,18 +5996,15 @@ msgid "No dates recorded"
 msgstr "لم يتم تسجيل تواريخ"
 
 #: eamena/templates/views/reports/sections/related_resource_section.htm:41
-#, fuzzy
 msgid "Related Heritage Places"
 msgstr "E27 موراد تراثية  ذات صلة"
 
 #: eamena/templates/views/reports/sections/related_resource_section.htm:66
-#, fuzzy
 msgid "Name(s): "
 msgstr "اسم/اسماء"
 
 #: eamena/templates/views/reports/sections/related_resource_section.htm:146
 #: eamena/templates/views/reports/sections/related_resource_section.htm:226
-#, fuzzy
 msgid "Type(s): "
 msgstr "النوع"
 
@@ -6179,9 +6021,8 @@ msgstr "مصادر معلومات ذات صلة"
 #: eamena/templates/views/reports/sections/related_resource_section.htm:434
 #: eamena/templates/views/reports/sections/related_resource_section.htm:476
 #: eamena/templates/views/reports/sections/related_resource_section.htm:509
-#, fuzzy
 msgid "Number: "
-msgstr "العدد"
+msgstr "عدد:"
 
 #: eamena/templates/views/reports/sections/related_resource_section.htm:367
 msgid "Data contributed by: "
@@ -6395,8 +6236,8 @@ msgstr "يجب ادخال نوع التاريخ والذي اعتمد والتا
 #~ msgstr "مدى التأكد من التأثير 5"
 
 #~ msgid ""
-#~ "A title, title type, and relationship type must be specified.  If "
-#~ "specifying a description, then a description type must be defined as well."
+#~ "A title, title type, and relationship type must be specified.  If specifying"
+#~ " a description, then a description type must be defined as well."
 #~ msgstr "يجب تحديد الوصف، ثم نوع الوصف كذلك"
 
 #~ msgid "shared data source project"
