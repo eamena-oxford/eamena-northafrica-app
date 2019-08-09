@@ -301,6 +301,8 @@ LOGGING = {
     },
 }
 
+TEST_RUNNER = 'tests.test_runner.MyRunner'
+
 try:
     from settings_local import *
 except ImportError:
