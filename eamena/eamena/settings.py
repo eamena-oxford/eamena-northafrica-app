@@ -68,6 +68,7 @@ ID_LENGTH = 7 #Indicates the length of the Unique Resource IDs after the set tag
 def RESOURCE_TYPE_CONFIGS():
     return {
         'HERITAGE_PLACE.E27': {
+            'allow_bulk_upload': True,
             'resourcetypeid': 'HERITAGE_PLACE.E27',
             'name': _('Heritage Place'),
             'icon_class': 'fa fa-stop',
@@ -87,6 +88,7 @@ def RESOURCE_TYPE_CONFIGS():
             'sort_order': 1
         },
         'HERITAGE_FEATURE.E24': {
+            'allow_bulk_upload': True,
             'resourcetypeid': 'HERITAGE_FEATURE.E24',
             'name': _('Heritage Feature'),
             'icon_class': 'fa fa-th-large',
@@ -106,6 +108,7 @@ def RESOURCE_TYPE_CONFIGS():
             'sort_order': 2
         },
         'HERITAGE_COMPONENT.B2': {
+            'allow_bulk_upload': True,
             'resourcetypeid': 'HERITAGE_COMPONENT.B2',
             'name': _('Heritage Component'),
             'icon_class': 'fa fa-th',
@@ -144,6 +147,7 @@ def RESOURCE_TYPE_CONFIGS():
             'sort_order': 4
         },
         'INFORMATION_RESOURCE.E73': {
+            'allow_bulk_upload': True,
             'resourcetypeid': 'INFORMATION_RESOURCE.E73',
             'name': _('Information Resource'),
             'icon_class': 'fa fa-file-text-o',

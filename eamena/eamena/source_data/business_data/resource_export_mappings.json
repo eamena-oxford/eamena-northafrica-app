@@ -878,6 +878,10 @@
                 "entitytypeid": "NAME_TYPE.E55"
                 },
                 {
+                "field_name": "Assessor",
+                "entitytypeid": "INVESTIGATOR_NAME.E41"
+                },
+                {
                 "field_name": "Grid_ID",
                 "entitytypeid": "GRID_ID.E42"
                 },
